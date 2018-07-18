@@ -19,8 +19,8 @@ class Visit(Resource):
 	def get(self):
 		prev_num = userNum.find({})[0]["num_of_users"]
 		new_num = prev_num + 1
-		userNum.update({}, {"$set":("num_of_users": new_num)"})
-		return str("Hello user:" + new_num)
+		userNum.update({}, {"$set":{"num_of_users": new_num}})
+		return ("Hello user:" + str(new_num))
 
 def checkPostedData(postedData, functionName):
 	if (functionName == "add" or functionName == "subtract" or functionName == "multiply" or functionName == "divide"):
