@@ -17,3 +17,11 @@ Python REST APIs with Flask, Docker, MongoDB, and AWS DevOps
 * if helloworld appears then its working fine
 * Test API using POSTMAN
 
+### Image Recognition with Inception-v3 (TensorFlow) Restful API
+https://github.com/srafay/Flask-App/releases/tag/v0.3
+
+### Similarity Check using Natural Language Processing Restful API
+https://github.com/srafay/Flask-App/releases/tag/v0.2
+
+### Database as a Service Restful API
+https://github.com/srafay/Flask-App/releases/tag/v0.1
