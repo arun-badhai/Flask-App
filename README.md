@@ -27,7 +27,11 @@ Python REST APIs with Flask, Docker, MongoDB, and AWS DevOps
   * https://github.com/srafay/Flask-App/releases/tag/v0.3
 
 ### Similarity Check using Natural Language Processing Restful API
-https://github.com/srafay/Flask-App/releases/tag/v0.2
+* It is an API for finding similarity between two words or sentences
+* Using MongoDB for database management
+* Spacy NLP models are used for performing similarity check
+* Read more details of the API in the release section
+  * https://github.com/srafay/Flask-App/releases/tag/v0.2
 
 ### Database as a Service Restful API
 https://github.com/srafay/Flask-App/releases/tag/v0.1
