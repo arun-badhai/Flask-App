@@ -18,7 +18,13 @@ Python REST APIs with Flask, Docker, MongoDB, and AWS DevOps
 * Test API using POSTMAN
 
 ### Image Recognition with Inception-v3 (TensorFlow) Restful API
-https://github.com/srafay/Flask-App/releases/tag/v0.3
+* Inception-v3 is trained for the ImageNet Large Visual Recognition Challenge using the data from 2012
+* It can classify entire images upto 1000 different classes
+* We can train our own model but right now I have used pre-trained Tensorflow models
+* I have also modified classify_image.py to write top 5 output results into a file
+  * for later reading and giving the results in POST request's response
+* Read more details of the API in the release section
+  * https://github.com/srafay/Flask-App/releases/tag/v0.3
 
 ### Similarity Check using Natural Language Processing Restful API
 https://github.com/srafay/Flask-App/releases/tag/v0.2
